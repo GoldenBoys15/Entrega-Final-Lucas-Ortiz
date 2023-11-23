@@ -1,0 +1,135 @@
+
+/*Agrega tus estilos aquí, incluyendo el estilo para el modo oscuro */
+.modo-oscuro {
+    background-color: #414141;
+    color: #fff;
+    .navbar{
+        background-color: #000;
+    }
+    .footer{
+        background-color: #000;
+    }
+    .footerIncompleto{
+        background-color: #000;
+    }
+    .fondo-li{
+        background-color: #414141;
+    }
+    .letras{
+        color: white;
+    }
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    background-color: #e8d94f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+    background-color: #ffffff;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+
+.navbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #e8d94f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.footerIncompleto {
+    background-color: #e8d94f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.fotos{
+    height: 1.3rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+}
+
+.result-container{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+}
+
+input,textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+.logo{
+    height: 10rem;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
